@@ -6,8 +6,8 @@ export default function page() {
       <div className="  py-[100px] px-5 md:px-10 overflow-hidden">
         <div className=" ">
           <div className=" flex flex-col gap-2 md:gap-0 px-4 md:flex-row items-center justify-center w-full h-[300px] md:px-10 bg-gray-200 my-3 md:my-5">
-            <h1 className=" text-3xl font-serif md:flex-[1]">
-              How it all <br />
+            <h1 className=" text-xl md:text-3xl font-serif md:flex-[1]">
+              How it all <br className="hidden md:block" />
               {/* <span className=" font-semibold italic text-4xl bg-gradient-to-b from-orange-300 to-orange-500 text-transparent bg-clip-text"> */}
               <span className=" font-semibold italic text-4xl ">started</span>
             </h1>

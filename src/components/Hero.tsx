@@ -27,7 +27,7 @@ function Hero() {
     <section className=" overflow-hidden">
       <motion.div
         initial="hidden"
-        animate="visible"
+        whileInView="visible"
         className="w-screen h-[85vh] relative"
       >
         <div className=" bg-black/40 w-full h-full">
