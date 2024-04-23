@@ -15,7 +15,8 @@ function page() {
         <div className=" flex flex-col gap-2 md:gap-0 px-4 md:flex-row items-center justify-center w-full h-[300px] md:px-10 bg-gray-200 my-3 md:my-5">
           <h1 className=" text-3xl font-serif md:flex-[1]">
             You dream it, we can{" "}
-            <span className=" font-semibold italic text-4xl bg-gradient-to-b from-orange-300 to-orange-500 text-transparent bg-clip-text">
+            {/* <span className=" font-semibold italic text-4xl bg-gradient-to-b from-orange-300 to-orange-500 text-transparent bg-clip-text"> */}
+            <span className=" font-semibold italic text-2xl md:text-4xl px-1">
               build
             </span>{" "}
             it
@@ -54,7 +55,8 @@ function page() {
         <div className=" flex flex-col gap-2 md:gap-0 px-4 md:flex-row items-center justify-center w-full h-[300px] md:px-10 bg-gray-200 my-3 md:my-5">
           <h1 className=" text-3xl font-serif md:flex-[1]">
             Procurement that goes the{" "}
-            <span className=" font-semibold italic text-4xl bg-gradient-to-b from-orange-300 to-orange-500 text-transparent bg-clip-text">
+            {/* <span className=" font-semibold italic text-4xl bg-gradient-to-b from-orange-300 to-orange-500 text-transparent bg-clip-text"> */}
+            <span className=" font-semibold italic text-2xl md:text-4xl px-1">
               extra
             </span>{" "}
             mile
