@@ -16,7 +16,7 @@ function page() {
           <h1 className=" text-3xl font-serif md:flex-[1]">
             You dream it, we can{" "}
             {/* <span className=" font-semibold italic text-4xl bg-gradient-to-b from-orange-300 to-orange-500 text-transparent bg-clip-text"> */}
-            <span className=" font-semibold italic text-2xl md:text-4xl px-1">
+            <span className=" font-semibold italic text-4xl px-1 text-orange-500">
               build
             </span>{" "}
             it
@@ -56,7 +56,7 @@ function page() {
           <h1 className=" text-3xl font-serif md:flex-[1]">
             Procurement that goes the{" "}
             {/* <span className=" font-semibold italic text-4xl bg-gradient-to-b from-orange-300 to-orange-500 text-transparent bg-clip-text"> */}
-            <span className=" font-semibold italic text-2xl md:text-4xl px-1">
+            <span className=" font-semibold italic text-4xl px-1 text-orange-500 ">
               extra
             </span>{" "}
             mile

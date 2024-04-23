@@ -9,7 +9,9 @@ export default function page() {
             <h1 className=" text-xl md:text-3xl font-serif md:flex-[1]">
               How it all <br className="hidden md:block" />
               {/* <span className=" font-semibold italic text-4xl bg-gradient-to-b from-orange-300 to-orange-500 text-transparent bg-clip-text"> */}
-              <span className=" font-semibold italic text-4xl ">started</span>
+              <span className=" font-semibold italic text-orange-500 text-4xl ">
+                started
+              </span>
             </h1>
             <p className=" md:flex-[2] md:px-10">
               Butatech Solution Ltd was incorporated under the Laws of the
@@ -90,7 +92,7 @@ export default function page() {
             <h1 className=" text-3xl font-serif md:flex-[1]">
               Supplies of
               {/* <span className=" font-semibold italic text-4xl bg-gradient-to-b from-orange-300 to-orange-500 text-transparent bg-clip-text"> */}
-              <span className=" font-semibold italic text-4xl px-1">
+              <span className=" font-semibold italic text-orange-500 text-4xl px-1">
                 construction
               </span>{" "}
               <br />
