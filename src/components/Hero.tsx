@@ -115,7 +115,7 @@ const hero = [
     title: "Remodeling",
     details: "Giving our clients structures a facelift",
     service: "construction",
-    image: "/butacon/53.jpg",
+    image: "/butacon/20.jpg",
   },
   {
     id: 3,
@@ -123,7 +123,7 @@ const hero = [
     details: "We supply quality construction materials",
     service: "supplies",
     // video: "/video2.webm",
-    image: "/butacon/54.jpg",
+    image: "/butacon/124.jpg",
   },
   {
     id: 4,
