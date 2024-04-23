@@ -17,20 +17,22 @@ function page() {
       </h1>
       <div className=" grid place-items-center">
         {gallery.map((item, index) => (
-          <motion.div
-            key={item.id}
-            variants={fadeInMotion}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            custom={index}
-          >
+          <div key={item.id}>
             <h2 className=" w-full text-center font-serif font-bold text-lg md:text-2xl my-2 md:my-5 italic">
               Before remodeling
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-3 md:gap-5 ">
-              {item.beforeimages.map((p, i) => (
-                <div id={item.urlid} key={i}>
+              {item.beforeimages.map((p, index) => (
+                // <div id={item.urlid} key={i}>
+                <motion.div
+                  id={item.urlid}
+                  key={index}
+                  variants={fadeInMotion}
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                  custom={index}
+                >
                   <div className=" relative h-[220px] w-[300px] md:w-[220px] border-t-[4px] border-orange-500">
                     <div className=" hidden z-10 absolute md:grid place-items-center h-full w-full px-3 text-transparent hover:bg-black/50 hover:text-white">
                       {item.title}
@@ -38,25 +40,36 @@ function page() {
 
                     <Image src={p} fill alt="" className=" object-cover" />
                   </div>
-                </div>
+                </motion.div>
+                // </div>
               ))}
             </div>
             <h2 className=" w-full text-center font-serif font-bold text-lg md:text-2xl my-2 md:my-5 italic">
               After remodeling
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-3 md:gap-4">
-              {item.afterimages.map((p, i) => (
-                <div key={i}>
+              {item.afterimages.map((p, index) => (
+                // <div key={i}>
+
+                <motion.div
+                  id={item.urlid}
+                  key={index}
+                  variants={fadeInMotion}
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                  custom={index}
+                >
                   <div className=" relative h-[220px] w-[300px] md:w-[220px] border-t-[4px] border-orange-500">
                     <div className=" hidden z-10 absolute md:grid place-items-center h-full w-full px-3 text-transparent hover:bg-black/50 hover:text-orange-200">
                       {item.title}
                     </div>
                     <Image src={p} fill alt="image" className=" object-cover" />
                   </div>
-                </div>
+                </motion.div>
               ))}
             </div>
-          </motion.div>
+          </div>
         ))}
       </div>
     </motion.div>
