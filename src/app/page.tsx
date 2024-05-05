@@ -41,8 +41,8 @@ function page() {
         </h1>
 
         <p className="px-5">
-          Our greatest asset is our customers and we go the extra mile to always
-          exceed their expectations{" "}
+          Our customers are our greatest asset. We always go above and beyond to
+          exceed their expectations
         </p>
         <div className=" grid grid-cols-1 md:grid-cols-2 my-5 md:my-10 px-6 md:px-10 rounded-lg">
           {customers.map((item) => (
@@ -103,22 +103,22 @@ const reviews = [
   {
     id: 1,
     comment:
-      "Our experience with Butatech solution has been nothing short of spectacular",
+      "Our experience with Butatech solution has been absolutely fantastic",
     customer: "Adamu Emeka",
     coy: "CEO XYZ Ltd",
   },
   {
     id: 2,
     comment:
-      "Butatech solution has proven time and again to be professional, reliable and dependable",
+      "Butatech solution has proven time and again to be professional, reliable, and dependable",
     customer: "Shaolin Master",
     coy: "CEO Temple Incorporation",
   },
   {
     id: 3,
     comment:
-      "Firstbuta has always lived up to their mantra of Integrity, Quality and Speed",
-    customer: "Master Lee",
-    coy: "CEO Emilokan Ltd",
+      "Firstbuta has consistently upheld its values pf integrity, quality and speed",
+    customer: "Tayo Titiloye",
+    coy: "CEO Eripela Integrated Concepts Ltd",
   },
 ];

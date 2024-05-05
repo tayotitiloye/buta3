@@ -55,17 +55,16 @@ function Safety() {
           <div className=" md:pl-10">
             <p>
               {" "}
-              To this end all efforts and productive actions will be made to
-              enhance the healthy working environment and safety of all the
-              personnel on company sites and offices. To place the Health and
-              Safety of employees and public ahead of the Company&apos;s
-              commercial interest while protecting the Environment .{" "}
+              All efforts and productive actions are made to enhance healthy
+              working environment and safety of all the personnel on company
+              sites and offices. Health and Safety of employees and the public
+              are placed ahead of the Company&apos;s commercial interest.{" "}
             </p>
             <p>
-              To provide and maintain safe systems of works to minimize risk to
-              health, safety and environment. To provide adequate and proper
-              facilities, equipments, safety apparel and ensure they are used
-              correctly.
+              We provide and maintain safe systems of works to minimize risk to
+              health, safety and environment. In addition, we provide adequate
+              and proper facilities, equipments, safety apparel and ensure they
+              are used correctly.
             </p>
           </div>
         </div>
@@ -88,7 +87,8 @@ function Safety() {
             Our Services are fashioned to comply with the codes and
             specifications of all national and international inspection and
             classification authorities for specific projects and this assures
-            quality, in and reliability. We guarantee our services and products
+            quality and reliability. We always guarantee our services and
+            products.
           </div>
         </div>
       </div>

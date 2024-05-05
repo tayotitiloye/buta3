@@ -16,11 +16,12 @@ function Aboutsummary() {
           <h2 className=" font-bold text-xl md:text-3xl">
             Integrity, Quality and Speed
           </h2>
-          Butatech is onestop shop for all thing construction. The flexibility
-          to mobilize the right people to deliver unique construction solutions;
-          an unwavering focus on delivering value to your business bottom line;
-          and the capability to leverage innovation to meet emerging challenges
-          and keep you at the fore. This is Butatech.
+          Butatech is the ultimate destination for all your construction needs.
+          We provide the flexibility to bring together the right people to offer
+          customized construction solutions. Our unwavering focus is on
+          delivering value to your business&apos;s bottom line, and we use
+          innovation to tackle emerging challenges and keep you ahead of the
+          competition. This is what Butatech is all about
           <div className=" my-2 md:my-3">
             <Link href={"/about"}>
               <button className=" uppercase text-sm text-orange-500 border-2 border-orange-500 rounded-md hover:text-white transition duration-300 hover:bg-orange-500 md:text-lg p-1 md:p-2">

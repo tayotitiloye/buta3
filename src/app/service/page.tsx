@@ -22,9 +22,9 @@ function page() {
             it
           </h1>
           <div className=" md:flex-[2] md:px-10">
-            We are a consortium of engineers with interests in civil, structural
-            and building engineering. We conceptualize projects, design, manage,
-            evaluate and construct.
+            We are a group of engineers specializing in civil, structural, and
+            building engineering. We conceptualize, design, manage, evaluate,
+            and construct projects.
             <p>Construction is more than our business. It&apos;s who we are.</p>
           </div>
         </div>
@@ -54,14 +54,18 @@ function page() {
       <div>
         <div className=" flex flex-col gap-2 md:gap-0 px-4 md:flex-row items-center justify-center w-full h-[300px] md:px-10 bg-gray-200 my-3 md:my-5">
           <h1 className=" text-3xl font-serif md:flex-[1]">
-            Procurement that goes the{" "}
+            Our procurement service goes{" "}
             {/* <span className=" font-semibold italic text-4xl bg-gradient-to-b from-orange-300 to-orange-500 text-transparent bg-clip-text"> */}
             <span className=" font-semibold italic text-4xl px-1 text-orange-500 ">
-              extra
+              above and beyond
             </span>{" "}
-            mile
+            to meet your needs
           </h1>
           <p className=" md:flex-[2] md:px-10">
+            <p>
+              Our core competence is supplying quality civil construction
+              materials and products. Let us handle procurement for you.
+            </p>
             Supplying quality civil construction materials and products is our
             area of core competence. Let us take procurement burden off you.
           </p>

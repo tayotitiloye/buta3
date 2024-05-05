@@ -13,13 +13,20 @@ export default function page() {
                 started
               </span>
             </h1>
-            <p className=" md:flex-[2] md:px-10">
-              Butatech Solution Ltd was incorporated under the Laws of the
-              Federal Republic of Nigeria in 1996 following a desire to embark
-              on the objective of using the benefit of a moderately-sized
-              company to meet the ever-changing needs of a sophisticated
-              clientele that is no longer satisfied with mediocrity, and
-              standards that are lower than world class.{" "}
+            Butatech Solution Ltd was founded in Nigeria in 2013 to offer
+            excellent services to its discerning customers. The company&apos;s
+            founders identified the need to provide world-class standards to
+            meet the ever-evolving demands of its customers. The company was
+            created as a moderately sized enterprise with a focus on delivering
+            exceptional service to its clients.
+            <p>
+              As of 2018, the company&apos;s core competence was in supplying
+              construction materials. However, the founders recognized a gap in
+              the construction section. In a bid to bridge this gap, they
+              established First Butatech Project Limited. While Butatech
+              continued to meet the demand for supply of construction materials,
+              First Butatech Project Limited has been providing construction
+              services to its clients.
             </p>
           </div>
           <div className="flex flex-col gap-4 md:gap-0 md:flex-row my-[50px] md:my-[80px] ">
@@ -31,25 +38,25 @@ export default function page() {
                 alt="image"
               />
             </div>
+
             <div className="md:flex-[2] flex flex-col gap-2 md:gap-4 px-4 md:px-10">
-              <h2 className=" capitalize text-xl md:text-2xl font-semibold">
+              <h2 className=" capitalize text-2xl md:text-3xl font-semibold">
                 construction
               </h2>
               <p>
-                FIRST BUTATECH PROJECT LIMITED offer civil engineering
-                construction services in the area of Building/Civil/Structural
-                Engineering practices in Nigeria with clear knowledge of local
-                and international standards and experience.
+                First Butatech Project Limited is a Nigerian company that
+                specializes in providing civil engineering construction
+                services. We have extensive knowledge of both local and
+                international standards, and we have a team of experienced
+                engineers, architects, quantity surveyors, and project managers
+                who are well-equipped to handle any project.
               </p>
               <p>
-                We have a team of experienced and seasoned engineers,
-                architects, quantity surveyors and project managers in our team.
-              </p>
-              <p>
-                FIRST BUTATECH PROJECT LIMITED is a consortium of engineers with
-                interests in civil, structural and building engineering. Our
-                interest includes projects conceptualization, design,
-                management, evaluation and construction.
+                Our team at First Butatech Project Limited is made up of a group
+                of skilled and seasoned professionals who specialize in civil,
+                structural, and building engineering. We provide services that
+                range from project conceptualization, design, management, and
+                evaluation, to construction.
               </p>
             </div>
           </div>
@@ -59,38 +66,36 @@ export default function page() {
               <h2 className="capitalize text-xl md:text-2xl mb-3">
                 We are versatile, we cover a lot of grounds
               </h2>
-              First Butatech Project Limited is an indigenous multi-disciplinary
-              engineering company providing integrated one-stop services
-              covering Construction, Mining, Procurement, Engineering Services
-              as well as consultancy and advisory services to the energy sector,
-              communications sector, urban infrastructure and the environment.
-              Our operations and actions are guided by high level of integrity,
-              honesty and fairness. We are equipped with requisite facilities,
-              tools and intelligent, dedicated and highly skilled man-power to
-              carry out total architectural works, construction, procurement,
-              and maintenance services.
+              First Butatech Project Limited is a locally-owned engineering
+              company that offers comprehensive services in construction,
+              mining, procurement, engineering, and consultancy. We specialize
+              in serving the energy, communications, urban infrastructure, and
+              environmental sectors. Our company operates with a strong
+              commitment to integrity, honesty, and fairness. We have all the
+              necessary facilities, tools, and highly skilled personnel to
+              handle all aspects of architectural work, construction,
+              procurement, and maintenance services.
             </div>
             <div className="flex flex-col gap-2 md:gap-4 md:flex-[1] p-5">
               <h2 className=" capitalize text-xl md:text-2xl">
                 we are on a mission
               </h2>
               <p>
-                we aim To be the one-stop engineering and construction solutions
-                provider in Nigeria through the creation of
-                environmental-friendly engineering masterpieces that provide
-                lasting deep local value to our clients.
+                We aim to become Nigeria&apos;s leading provider of eco-friendly
+                engineering solutions that deliver lasting value to our clients.
               </p>
+
               <h2 className="capitalize text-xl md:text-2xl">our value</h2>
               <p>
-                Our approach to success is through due diligent in discharging
-                of services, with passion, integrity, efficiently and
-                effectively pursuing the determination to achieve the best.
+                Our success is achieved through diligent, passionate, and
+                efficient service delivery with unwavering integrity and
+                relentless pursuit of excellence.
               </p>
             </div>
           </div>
           <div className=" flex flex-col gap-2 md:gap-0 px-4 md:flex-row items-center justify-center w-full h-[300px] md:px-10 my-[100px] md:my-5">
             <h1 className=" text-3xl font-serif md:flex-[1]">
-              Supplies of
+              Supplies of <br />
               {/* <span className=" font-semibold italic text-4xl bg-gradient-to-b from-orange-300 to-orange-500 text-transparent bg-clip-text"> */}
               <span className=" font-semibold italic text-orange-500 text-4xl px-1">
                 construction
@@ -99,46 +104,47 @@ export default function page() {
               materials
             </h1>
             <p className=" md:flex-[2] md:px-10">
-              Our procurement arm specializes in providing quality civil
-              construction materials and products such as Bitumen, Diesel ,
-              Granite stones and Sands to individuals, Corporate Organizations
-              and Government Agencies.Our operations and actions are guided by
-              high level of ntegrity, honesty and fairness. We have been partner
-              in progress with many Asphalt Companies, Construction Companies
-              and Government Agencies for many years.
+              Our procurement division specializes in supplying high-quality
+              civil construction materials and products, such as bitumen,
+              diesel, granite stones, and sands, to individuals, corporate
+              organizations, and government agencies. Our operations are guided
+              by a high level of integrity, honesty, and fairness. Over the
+              years, we have been partnering with many asphalt companies,
+              construction firms, and government agencies as a reliable and
+              trusted provider of construction materials.
             </p>
           </div>
 
           <div className="flex flex-col md:flex-row gap-2 my-5 md:my-10 bg-gray-200 rounded-lg">
             <div className=" flex-[1] flex flex-col gap-2 p-5">
               <h2 className="capitalize text-xl md:text-2xl">our commitment</h2>
-              We are committed to delivering the very best to our clients from a
-              360 degree perspective having at the back of our mind, client
-              satisfaction is of utmost importance. Our greatest goal is to keep
-              our customers happy always through the supply and delivery of
-              products or materials in strict accordance to the specifications
-              given to us within the shortest possible time, such that we do not
-              only meet up, but exceed our customers&apos; expectations.
+              Our commitment to our clients is to provide the best possible
+              service from every angle. We prioritize client satisfaction above
+              all else. Our ultimate goal is to ensure our customers are always
+              content with our products and services. We achieve this by
+              delivering materials and products with strict adherence to the
+              specifications provided and in the shortest possible time. We
+              strive not only to meet but to exceed our customers&apos;
+              expectations.
               <h2 className="capitalize text-xl md:text-2xl">our focus</h2>
               <p>
-                Our target is to be the most reliable supplier of civil
-                construction materials in West Africa
+                Our goal is to become the most dependable provider of
+                construction materials for civil works in West Africa
               </p>
             </div>
             <div className="flex flex-col gap-2 md:gap-4 flex-[1] p-5">
               <h2 className="capitalize text-xl md:text-2xl">our mission</h2>
               <p>
-                To always establish a long lasting relationships with customers
-                and continually improve on our reputations by exceeding their
-                expectations and gaining their trust through exceptional quick
-                delivery of quality materials or products at a fair and
-                competitive price
+                Our goal is to build strong and lasting relationships with our
+                customers. We aim to exceed their expectations by providing
+                high-quality materials or products at a fair and competitive
+                price while ensuring quick delivery.
               </p>
               <p>
-                Our ultimate strategy to achieve our mission is by being
-                sensitive, and consistently improving our services, turn-around
-                time and commitment towards excellence which will contribute to
-                customer&apos;s success.Our Philosophy
+                Our strategy to achieve this is to always be attentive to their
+                needs, and continuously improve our services, turnaround time,
+                and commitment to excellence. We strongly believe that our
+                philosophy will contribute to our customers&apos; success.
               </p>
             </div>
           </div>
