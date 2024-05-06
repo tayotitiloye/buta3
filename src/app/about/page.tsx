@@ -5,29 +5,34 @@ export default function page() {
     <section>
       <div className="  py-[100px] px-5 md:px-10 overflow-hidden">
         <div className=" ">
-          <div className=" flex flex-col gap-2 md:gap-0 px-4 md:flex-row items-center justify-center w-full h-[300px] md:px-10 bg-gray-200 my-3 md:my-5">
-            <h1 className=" text-xl md:text-3xl font-serif md:flex-[1]">
+          <div className=" flex flex-col  gap-2 md:gap-0 px-4 py-2 md:flex-row items-center justify-center w-full h-full md:h-[300px] md:px-10 bg-gray-200 my-3 md:my-5">
+            <h1 className=" text-xl md:text-3xl text-left font-serif md:flex-[1]">
               How it all <br className="hidden md:block" />
               {/* <span className=" font-semibold italic text-4xl bg-gradient-to-b from-orange-300 to-orange-500 text-transparent bg-clip-text"> */}
               <span className=" font-semibold italic text-orange-500 text-4xl ">
                 started
               </span>
             </h1>
-            Butatech Solution Ltd was founded in Nigeria in 2013 to offer
-            excellent services to its discerning customers. The company&apos;s
-            founders identified the need to provide world-class standards to
-            meet the ever-evolving demands of its customers. The company was
-            created as a moderately sized enterprise with a focus on delivering
-            exceptional service to its clients.
-            <p>
-              As of 2018, the company&apos;s core competence was in supplying
-              construction materials. However, the founders recognized a gap in
-              the construction section. In a bid to bridge this gap, they
-              established First Butatech Project Limited. While Butatech
-              continued to meet the demand for supply of construction materials,
-              First Butatech Project Limited has been providing construction
-              services to its clients.
-            </p>
+            <div className=" flex flex-col gap-4">
+              <p>
+                Butatech Solution Ltd was founded in Nigeria in 2013 to offer
+                excellent services to its discerning customers. The
+                company&apos;s founders identified the need to provide
+                world-class standards to meet the ever-evolving demands of its
+                customers. The company was created as a moderately sized
+                enterprise with a focus on delivering exceptional service to its
+                clients.
+              </p>
+              <p>
+                As of 2018, the company&apos;s core competence was in supplying
+                construction materials. However, the founders recognized a gap
+                in the construction section. In a bid to bridge this gap, they
+                established First Butatech Project Limited. While Butatech
+                continued to meet the demand for supply of construction
+                materials, First Butatech Project Limited has been providing
+                construction services to its clients.
+              </p>
+            </div>
           </div>
           <div className="flex flex-col gap-4 md:gap-0 md:flex-row my-[50px] md:my-[80px] ">
             <div className="md:flex-[1] relative w-[300px] h-[300px] rounded-lg">
