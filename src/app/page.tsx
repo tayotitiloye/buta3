@@ -26,7 +26,7 @@ function page() {
 
         <Ourteam />
       </div>
-      <div className=" px-5 md:px-10 my-[50px] md:my-[80px]">
+      <div className=" px-5 md:px-10 my-[70px] md:my-[100px]">
         <Safety />
       </div>
       <div>
@@ -35,8 +35,8 @@ function page() {
         </h1>
         <Statistics />
       </div>
-      <div className=" text-center ">
-        <h1 className=" text-bold md:text-3xl text-xl">
+      <div className=" text-center my-14 md:my-18">
+        <h1 className=" font-bold md:text-3xl text-xl">
           Trusted by Top Brands
         </h1>
 
@@ -44,7 +44,7 @@ function page() {
           Our customers are our greatest asset. We always go above and beyond to
           exceed their expectations
         </p>
-        <div className=" grid grid-cols-1 md:grid-cols-2 my-5 md:my-10 px-6 md:px-10 rounded-lg">
+        <div className=" grid grid-cols-1 md:grid-cols-2 my-10 md:my-14 px-6 md:px-10 rounded-lg">
           {customers.map((item) => (
             <div
               className="border border-orange-500 p-4 md:p-8 font-semibold"
@@ -117,7 +117,7 @@ const reviews = [
   {
     id: 3,
     comment:
-      "Firstbuta has consistently upheld its values pf integrity, quality and speed",
+      "Firstbuta has consistently upheld its values of integrity, quality and speed",
     customer: "Tayo Titiloye",
     coy: "CEO Eripela Integrated Concepts Ltd",
   },

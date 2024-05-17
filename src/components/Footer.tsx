@@ -5,7 +5,7 @@ import { MdOutlineEmail } from "react-icons/md";
 
 function Footer() {
   return (
-    <div className=" w-full bg-gradient-to-b from-orange-400 to-orange-600 text-white">
+    <div className=" w-full bg-gradient-to-b from-orange-500 to-orange-700 text-white">
       <div className=" flex flex-col gap-2 p-10  items-start md:justify-center md:items-center">
         <div className="flex justify-center item-center gap-2 md:gap-3">
           <span>

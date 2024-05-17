@@ -33,7 +33,7 @@ const Slider = ({ data }: Props) => {
           className=" object-cover"
         />
 
-        <div className=" top-[100px] left-[50px] md:left-[70px] absolute z-10 bg-black/60 md:h-[250px] text-white p-5 rounded-lg">
+        <div className=" top-[100px] left-[20px]  w-[80vw]  md:left-[70px] absolute z-10 bg-black/60 md:h-[250px] text-white p-5 rounded-lg">
           <ImQuotesLeft className="text-orange-500 text-center text-xl md:text-2xl" />
           <div className=" text-3xl italic md:h-[100px]">{comment}</div>
           <div>{customer}</div>
