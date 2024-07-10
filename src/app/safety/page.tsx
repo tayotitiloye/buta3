@@ -56,7 +56,7 @@ function Safety() {
             <p>
               {" "}
               All efforts and productive actions are made to enhance healthy
-              working environment and safety of all the personnel on company
+              working environment and safety of all the personnels on company
               sites and offices. Health and Safety of employees and the public
               are placed ahead of the Company&apos;s commercial interest.{" "}
             </p>

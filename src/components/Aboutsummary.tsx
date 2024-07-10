@@ -9,7 +9,7 @@ function Aboutsummary() {
     <motion.div initial="hidden" whileInView="visible">
       <motion.div
         variants={fadeInMotion2}
-        className="  mx-2 md:mx-10 h-[50vh] p-3 md:p-5 my-14 md:my-18"
+        className="  mx-2 md:mx-10 h-[50vh] p-3 md:p-5 mt-14 mb-8"
       >
         <h1 className=" uppercase">who we are</h1>
         <div className="flex flex-col gap-2 md:gap-4">

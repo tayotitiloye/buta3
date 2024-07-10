@@ -5,16 +5,16 @@ export default function page() {
     <section>
       <div className="  py-[100px] px-5 md:px-10 overflow-hidden">
         <div className=" ">
-          <div className=" flex flex-col  gap-2 md:gap-0 px-4 py-2 md:flex-row items-center justify-center w-full h-full md:h-[300px] md:px-10 bg-gray-200 my-3 md:my-5">
-            <h1 className=" text-xl md:text-3xl text-left font-serif md:flex-[1]">
+          <div className=" flex flex-col  gap-3 pb-5 md:pb-0 md:gap-0 px-4 py-2 md:flex-row items-start md:items-center justify-center w-full h-full md:h-[300px] md:px-10 bg-gray-200 my-3 md:my-5">
+            <h1 className="text-2xl md:text-3xl py-2 md:py-0 text-left font-serif md:flex-[1]">
               How it all <br className="hidden md:block" />
               {/* <span className=" font-semibold italic text-4xl bg-gradient-to-b from-orange-300 to-orange-500 text-transparent bg-clip-text"> */}
-              <span className=" font-semibold italic text-orange-500 text-4xl ">
+              <span className=" font-semibold italic px-1 md:px-0 text-orange-500 text-4xl ">
                 started
               </span>
             </h1>
             <div className=" flex flex-col gap-4">
-              <p>
+              <p className=" p-0 md:px-10">
                 Butatech Solution Ltd was founded in Nigeria in 2013 to offer
                 excellent services to its discerning customers. The
                 company&apos;s founders identified the need to provide
@@ -23,11 +23,11 @@ export default function page() {
                 enterprise with a focus on delivering exceptional service to its
                 clients.
               </p>
-              <p>
-                As of 2018, the company&apos;s core competence was in supplying
-                construction materials. However, the founders recognized a gap
-                in the construction section. In a bid to bridge this gap, they
-                established First Butatech Project Limited. While Butatech
+              <p className="p-0 md:px-10">
+                Prior to 2018, the company&apos;s core competence was in supply
+                of construction materials. However, the founders recognized a
+                gap in the construction section. In a bid to bridge this gap,
+                they established First Butatech Project Limited. While Butatech
                 continued to meet the demand for supply of construction
                 materials, First Butatech Project Limited has been providing
                 construction services to its clients.
@@ -35,7 +35,7 @@ export default function page() {
             </div>
           </div>
           <div className="flex flex-col gap-4 md:gap-0 md:flex-row my-[50px] md:my-[80px] ">
-            <div className="md:flex-[1] relative w-[300px] h-[300px] rounded-lg">
+            <div className="md:flex-[1] border-2 relative w-[90vw] h-[300px] rounded-lg">
               <Image
                 src={"/butacon/50.jpg"}
                 fill
@@ -44,7 +44,7 @@ export default function page() {
               />
             </div>
 
-            <div className="md:flex-[2] flex flex-col gap-2 md:gap-4 px-4 md:px-10">
+            <div className="md:flex-[2] flex flex-col gap-3 mt-2 md:mt-3 md:gap-4 px-4 md:px-10">
               <h2 className=" capitalize text-2xl md:text-3xl font-semibold">
                 construction
               </h2>
@@ -59,9 +59,9 @@ export default function page() {
               <p>
                 Our team at First Butatech Project Limited is made up of a group
                 of skilled and seasoned professionals who specialize in civil,
-                structural, and building engineering. We provide services that
-                range from project conceptualization, design, management, and
-                evaluation, to construction.
+                structural, and building engineering. We provide array of
+                services such as project conceptualization, design, management,
+                evaluation, and construction.
               </p>
             </div>
           </div>
@@ -90,23 +90,27 @@ export default function page() {
                 engineering solutions that deliver lasting value to our clients.
               </p>
 
-              <h2 className="capitalize text-xl md:text-2xl">our value</h2>
+              <h2 className="capitalize text-xl md:text-2xl mt-4">our value</h2>
               <p>
-                Our success is achieved through diligent, passionate, and
+                Our success is achieved through diligence, passion, and
                 efficient service delivery with unwavering integrity and
                 relentless pursuit of excellence.
               </p>
             </div>
           </div>
-          <div className=" flex flex-col gap-2 md:gap-0 px-4 md:flex-row items-center justify-center w-full h-[300px] md:px-10 my-[100px] md:my-5">
+          <div className=" flex flex-col gap-2 md:gap-0 px-4 md:flex-row items-start md:items-center justify-center w-full h-[300px] md:px-10 my-[100px] md:my-5">
             <h1 className=" text-3xl font-serif md:flex-[1]">
-              Supplies of <br />
+              <span className=" pr-2 font-semibold italic text-orange-500 text-4xl px-1">
+                Supplies
+              </span>
+              of <br className=" block md:hidden" /> construction materials
+              {/* <br /> */}
               {/* <span className=" font-semibold italic text-4xl bg-gradient-to-b from-orange-300 to-orange-500 text-transparent bg-clip-text"> */}
-              <span className=" font-semibold italic text-orange-500 text-4xl px-1">
-                construction
-              </span>{" "}
-              <br />
-              materials
+              {/* <span className=" font-semibold italic text-orange-500 text-4xl px-1"> */}
+              {/* construction */}
+              {/* </span>{" "} */}
+              {/* <br /> */}
+              {/* materials */}
             </h1>
             <p className=" md:flex-[2] md:px-10">
               Our procurement division specializes in supplying high-quality
@@ -120,7 +124,7 @@ export default function page() {
             </p>
           </div>
 
-          <div className="flex flex-col md:flex-row gap-2 my-5 md:my-10 bg-gray-200 rounded-lg">
+          <div className="flex flex-col md:flex-row md:gap-2 my-5 md:my-10 bg-gray-200 rounded-lg">
             <div className=" flex-[1] flex flex-col gap-2 p-5">
               <h2 className="capitalize text-xl md:text-2xl">our commitment</h2>
               Our commitment to our clients is to provide the best possible
@@ -131,7 +135,9 @@ export default function page() {
               specifications provided and in the shortest possible time. We
               strive not only to meet but to exceed our customers&apos;
               expectations.
-              <h2 className="capitalize text-xl md:text-2xl">our focus</h2>
+              <h2 className="capitalize text-xl md:text-2xl pt-6 md:pt-0">
+                our focus
+              </h2>
               <p>
                 Our goal is to become the most dependable provider of
                 construction materials for civil works in West Africa

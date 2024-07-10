@@ -26,9 +26,9 @@ function Ourteam() {
       variants={slideInFromRight(0.5)}
       className=" relative rounded-lg bg-gray-100 flex justify-center items-center border-2 md:h-[85vh] h-full md:pb-0  my-5"
     >
-      <div className="hidden md:block absolute h-[350px] w-[320px] right-8 bg-gradient-to-b from-orange-400 to-orange-600 "></div>
+      <div className="hidden md:block absolute h-[350px] w-[320px] right-16 bg-gradient-to-b from-orange-400 to-orange-600 "></div>
 
-      <div className=" flex gap-4 justify-center items-center absolute left-12 bottom-9 md:bottom-5">
+      <div className=" flex gap-4 justify-center items-center absolute left-[120px] md:left-12 bottom-3 md:bottom-5">
         <button
           onClick={dec}
           className=" text-xl md:text-3xl border-2 rounded-full border-orange-300 p-1"
@@ -67,7 +67,7 @@ function Ourteam() {
             />
           )}
         </div>
-        <div className=" md:px-12 flex-[2] flex flex-col p-6 md:p-0 gap-4 bord ">
+        <div className=" md:px-12 flex-[2] flex flex-col p-6 md:p-0 gap-4 ">
           <div>
             <h2 className=" font-bold font-[Georgia] text-2xl">
               {" "}
@@ -86,7 +86,7 @@ function Ourteam() {
         </div>
         <button
           onClick={() => setOpen(!open)}
-          className=" uppercase bg-orange-500 text-white p-1 block md:hidden"
+          className=" uppercase bg-orange-500 text-white p-1 mb-14 md:mb-0 block md:hidden"
         >
           {" "}
           {open ? "show more" : "show less"}

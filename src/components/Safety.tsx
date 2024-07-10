@@ -14,8 +14,8 @@ function Safety() {
           className=""
         />
       </div>
-      <div className=" flex flex-col gap-3 flex-[1] md:justify-center md:items-start p-5">
-        <h2 className=" font-bold text-3xl tracking-widest">
+      <div className=" flex flex-col gap-3 flex-[1] md:justify-center md:items-start py-5 md:py-0 md:p-5">
+        <h2 className=" font-bold text-2xl md:text-3xl tracking-widest">
           Safety: A way of Life
         </h2>
         <div>

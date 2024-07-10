@@ -22,10 +22,11 @@ function page() {
             it
           </h1>
           <div className=" md:flex-[2] md:px-10">
-            We are a group of engineers specializing in civil, structural, and
-            building engineering. We conceptualize, design, manage, evaluate,
-            and construct projects.
-            <p>Construction is more than our business. It&apos;s who we are.</p>
+            We are a group of engineers that specialise in civil, structural,
+            and building engineering. We conceptualize, design, manage,
+            evaluate, and construct projects.
+            {/* <p>Construction is more than our business. It&apos;s who we are.</p> */}
+            <p>Construction is more than our business. It is who we are.</p>
           </div>
         </div>
       </div>
@@ -54,21 +55,30 @@ function page() {
       <div>
         <div className=" flex flex-col gap-2 md:gap-0 px-4 md:flex-row items-center justify-center w-full h-[300px] md:px-10 bg-gray-200 my-3 md:my-5">
           <h1 className=" text-3xl font-serif md:flex-[1]">
-            Our procurement service goes{" "}
+            We
             {/* <span className=" font-semibold italic text-4xl bg-gradient-to-b from-orange-300 to-orange-500 text-transparent bg-clip-text"> */}
             <span className=" font-semibold italic text-4xl px-1 text-orange-500 ">
-              above and beyond
+              supply
             </span>{" "}
-            to meet your needs
+            quality materials
           </h1>
-          <p className=" md:flex-[2] md:px-10">
+          {/* <h1 className=" text-3xl font-serif md:flex-[1]"> */}
+          {/* Our procurement service goes{" "} */}
+          {/* <span className=" font-semibold italic text-4xl bg-gradient-to-b from-orange-300 to-orange-500 text-transparent bg-clip-text"> */}
+          {/* <span className=" font-semibold italic text-4xl px-1 text-orange-500 "> */}
+          {/* above and beyond */}
+          {/* </span>{" "} */}
+          {/* to meet your needs */}
+          {/* </h1> */}
+          <div className=" md:flex-[2] md:px-10">
             <p>
-              Our core competence is supplying quality civil construction
-              materials and products. Let us handle procurement for you.
+              One of our core competences is supplying quality civil
+              construction materials and products. Let us handle procurement for
+              you.
             </p>
             Supplying quality civil construction materials and products is our
             area of core competence. Let us take procurement burden off you.
-          </p>
+          </div>
         </div>
         <div>
           <div className=" grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-3 md:gap-0 place-items-center md:mx-5 px-5">

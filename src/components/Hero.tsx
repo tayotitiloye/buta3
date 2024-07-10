@@ -113,7 +113,7 @@ const hero = [
   {
     id: 2,
     title: "Remodeling",
-    details: "Giving our clients structures a facelift",
+    details: "We give our clients structures a facelift",
     service: "construction",
     image: "/butacon/20.jpg",
   },

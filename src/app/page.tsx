@@ -12,11 +12,11 @@ function page() {
     <div className=" pt-[70px]  overflow-hidden">
       <Hero />
       <Aboutsummary />
-      <div className="px-5 md:px-10">
+      <div className="px-5 md:px-10 mt-[50px] md:mt-0 ">
         <h1 className=" md:pl-6 capitalize my-2 text-2xl font-bold md:text-4xl">
           our team
         </h1>
-        <div className="  md:pl-[120px]">
+        <div className="  md:pl-[160px]">
           <ImQuotesLeft className="text-orange-500  text-xl md:text-2xl" />
         </div>
         <p className=" italic md:text-center">
@@ -30,7 +30,7 @@ function page() {
         <Safety />
       </div>
       <div>
-        <h1 className=" px-5 md:px-12 my-2 text-2xl font-bold md:text-4xl">
+        <h1 className=" text-left md:text-center px-5 md:px-12 my-2 text-2xl font-bold md:text-4xl">
           What the numbers are saying
         </h1>
         <Statistics />
