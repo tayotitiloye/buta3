@@ -77,7 +77,7 @@ function page() {
               you.
             </p>
             Supplying quality civil construction materials and products is our
-            area of core competence. Let us take procurement burden off you.
+            area of speciality. Let us take procurement burden off you.
           </div>
         </div>
         <div>

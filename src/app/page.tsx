@@ -67,30 +67,48 @@ export default page;
 const customers = [
   {
     id: 1,
-    name: "Laralek Ultimate Company",
+    name: "Hitech Construction Company",
   },
   {
     id: 2,
-    name: "Espro Asphalt Production Company Ltd.",
+    name: "Craneburg Construction Company",
   },
   {
     id: 3,
-    name: "Nahman Construction Company Ltd.",
+    name: "Laralek Ultimate Company",
   },
   {
     id: 4,
+    name: "Espro Asphalt Production Company Ltd.",
+  },
+  {
+    id: 5,
+    name: "Nahman Construction Company Ltd.",
+  },
+  {
+    id: 6,
     name: "Lagos State Public Works Corporation (LSPW)",
   },
 
   {
-    id: 5,
+    id: 7,
     name: "Takol Nig Ltd.",
   },
   {
-    id: 6,
+    id: 8,
     name: "Jadfem Nigeria Ltd",
   },
 ];
+{
+  /* *CLIENTELE* - Lagos State Government -  -
+        Nahmah Construction Company - Kopec Construction Company - Espro Asphalt
+        Company - Laralek Construction -  - Other
+        reputable corporate organizations *LEADERSHIP HIGHLIGHTS* - Successfully
+        led Butatech Solutions to become a notable industry player - Built a
+        strong client base, including government agencies and prominent
+        companies - Demonstrated expertise in driving business growth and
+        expansion */
+}
 
 export type reviewsT = {
   id: number;

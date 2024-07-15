@@ -11,7 +11,7 @@ function Nvabar() {
     <div className=" flex justify-around py-4 bg-white/80 border-[3px] border-t-orange-500 bord border-b-2 text-orange-500 font-mono z-50 h-[70px] w-full font-bold fixed">
       <Link href={"/"} className="relative flex items-center cursor-pointer">
         {/* company's logo */}
-        <Image src={"/butasup/11.png"} width={50} height={50} alt="logo" />
+        <Image src={"/butasup/2.png"} width={50} height={50} alt="logo" />
       </Link>
       <div className=" hidden md:flex gap-4">
         {links.map((link) => (
@@ -59,5 +59,10 @@ const links = [
     id: 6,
     title: "gallery",
     url: "/gallery",
+  },
+  {
+    id: 7,
+    title: "ceo's profile",
+    url: "/ceoprofile",
   },
 ];
