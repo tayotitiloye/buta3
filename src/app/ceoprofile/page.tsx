@@ -3,15 +3,15 @@ import React from "react";
 
 function page() {
   return (
-    <div className="p-[100px]">
-      <h1 className=" text-center text-2xl my-3 md:my-5 md:text-4xl">
+    <div className="py-[100px] px-4 md:py-0 md:px-0 md:p-[100px]">
+      <h1 className=" text-center text-2xl my-3 md:my-5 md:text-3xl">
         CEO&apos;S PROFILE
       </h1>
       <div>
         <div className="flex flex-col-reverse md:flex-row box-border">
           <div className="flex-1 flex justify-center items-center md:px-5">
-            <div className=" flex flex-col gap-2 md:gap-3">
-              <h2 className=" font-bold text-orange-500 py-2 md:py-0 md:text-3xl italic font-serif">
+            <div className=" flex flex-col  gap-2 md:gap-3">
+              <h2 className=" font-bold text-xl text-orange-500 py-2 md:py-0 md:text-3xl italic font-serif">
                 ORIOLA BOLADALE{" "}
               </h2>
               <h3 className="font-bold">

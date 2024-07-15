@@ -31,6 +31,11 @@ const data = [
     title: "gallery",
     url: "/gallery",
   },
+  {
+    id: 6,
+    title: "ceo's profile",
+    url: "/ceoprofile",
+  },
 ];
 
 const MobileNavBar = () => {

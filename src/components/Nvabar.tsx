@@ -51,17 +51,17 @@ const links = [
   },
 
   {
-    id: 5,
+    id: 4,
     title: "Our Work",
     url: "/projects",
   },
   {
-    id: 6,
+    id: 5,
     title: "gallery",
     url: "/gallery",
   },
   {
-    id: 7,
+    id: 6,
     title: "ceo's profile",
     url: "/ceoprofile",
   },
